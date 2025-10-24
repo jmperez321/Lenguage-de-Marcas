@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music>
+    <playlist>
+        <nombre>Favoritos &amp; Clásicos</nombre>
+        <fechaCreacion>2023-06-12</fechaCreacion>
+        <canciones>
+            <cancion>
+                <track>1</track>
+                <titulo>Peace&amp;War</titulo>
+                <autor>Imagine Dragons</autor>
+                <duracion>3:45</duracion>
+            </cancion>
+            <cancion>
+                <track>2</track>
+                <titulo>Bohemian Rhapsody</titulo>
+                <autor>Queen</autor>
+                <duracion>5:55</duracion>
+            </cancion>
+        </canciones>
+    </playlist>
+
+    <playlist>
+        <nombre>Viaje Musical</nombre>
+        <fechaCreacion>2024-01-20</fechaCreacion>
+        <canciones>
+            <cancion>
+                <track>1</track>
+                <titulo>Shape of You</titulo>
+                <autor>Ed Sheeran</autor>
+                <duracion>3:53</duracion>
+            </cancion>
+            <cancion>
+                <track>2</track>
+                <titulo>Despacito</titulo>
+                <autor>Luis Fonsi</autor>
+                <duracion>4:42</duracion>
+            </cancion>
+        </canciones>
+    </playlist>
+</music>

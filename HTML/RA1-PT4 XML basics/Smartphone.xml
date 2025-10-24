@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smartphones>
+    <smartphone>
+        <nombre>iPhone 15 Pro</nombre>
+        <sistemaOperativo>
+            <nombre>iOS</nombre>
+            <version>17</version>
+        </sistemaOperativo>
+        <dimensiones>
+            <ancho>70.6 mm</ancho>
+            <alto>146.6 mm</alto>
+            <grosor>8.25 mm</grosor>
+        </dimensiones>
+        <peso>187 g</peso>
+        <resolucionPantalla>2556 x 1179 píxeles</resolucionPantalla>
+        <procesador>Apple A17 Pro</procesador>
+        <memoria>8 GB RAM / 256 GB almacenamiento</memoria>
+        <precio>1.219 €</precio>
+    </smartphone>
+
+    <smartphone>
+        <nombre>Samsung Galaxy S24 Ultra</nombre>
+        <sistemaOperativo>
+            <nombre>Android</nombre>
+            <version>14</version>
+        </sistemaOperativo>
+        <dimensiones>
+            <ancho>79 mm</ancho>
+            <alto>162.3 mm</alto>
+            <grosor>8.6 mm</grosor>
+        </dimensiones>
+        <peso>233 g</peso>
+        <resolucionPantalla>3120 x 1440 píxeles</resolucionPantalla>
+        <procesador>Qualcomm Snapdragon 8 Gen 3</procesador>
+        <memoria>12 GB RAM / 512 GB almacenamiento</memoria>
+        <precio>1.459 €</precio>
+    </smartphone>
+
+    <smartphone>
+        <nombre>Xiaomi 14 Pro</nombre>
+        <sistemaOperativo>
+            <nombre>Android (HyperOS)</nombre>
+            <version>14</version>
+        </sistemaOperativo>
+        <dimensiones>
+            <ancho>75.3 mm</ancho>
+            <alto>161.4 mm</alto>
+            <grosor>8.5 mm</grosor>
+        </dimensiones>
+        <peso>223 g</peso>
+        <resolucionPantalla>3200 x 1440 píxeles</resolucionPantalla>
+        <procesador>Qualcomm Snapdragon 8 Gen 3</procesador>
+        <memoria>12 GB RAM / 256 GB almacenamiento</memoria>
+        <precio>1.099 €</precio>
+    </smartphone>
+</smartphones>

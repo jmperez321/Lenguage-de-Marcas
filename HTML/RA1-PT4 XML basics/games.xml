@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juegos>
+    <juego>
+        <codigo>G001</codigo>
+        <nombre>The Legend of Zelda: Breath of the Wild</nombre>
+        <version>1.6.0</version>
+        <compania>Nintendo</compania>
+        <anioLanzamiento>2017</anioLanzamiento>
+        <ejemplares>
+            <ejemplar>
+                <codigoEjemplar>001</codigoEjemplar>
+            </ejemplar>
+            <ejemplar>
+                <codigoEjemplar>002</codigoEjemplar>
+            </ejemplar>
+            <ejemplar>
+                <codigoEjemplar>003</codigoEjemplar>
+            </ejemplar>
+        </ejemplares>
+    </juego>
+
+    <juego>
+        <codigo>G002</codigo>
+        <nombre>God of War Ragnarök</nombre>
+        <version>1.03</version>
+        <compania>Santa Monica Studio</compania>
+        <anioLanzamiento>2022</anioLanzamiento>
+        <ejemplares>
+            <ejemplar>
+                <codigoEjemplar>004</codigoEjemplar>
+            </ejemplar>
+            <ejemplar>
+                <codigoEjemplar>005</codigoEjemplar>
+            </ejemplar>
+            <ejemplar>
+                <codigoEjemplar>006</codigoEjemplar>
+            </ejemplar>
+        </ejemplares>
+    </juego>
+
+    <socio>
+        <dni>12345678A</dni>
+        <nombre>Melon Melonidas</nombre>
+        <telefono>678123456</telefono>
+    </socio>
+
+    <prestamo>
+        <codigoEjemplar>002</codigoEjemplar>
+        <dniSocio>12345678A</dniSocio>
+        <fechaPrestamo>10-02-2025</fechaPrestamo>
+        <fechaDevolucion>24-02-2025</fechaDevolucion>
+    </prestamo>
+</juegos>
