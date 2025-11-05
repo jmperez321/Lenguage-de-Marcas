@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+    <lang name="HTML" version="5" difficulty_average="easy">
+    </lang>
+    <lang>
+        <name>CSS</name>
+        <version>3</version>
+        <difficulty_average>medium</difficulty_average>
+    </lang>
+</languages>

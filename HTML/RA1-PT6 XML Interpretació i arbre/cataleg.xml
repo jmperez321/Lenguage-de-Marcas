@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pedido>
+    <Producto>
+        <Nom>Melón</Nom>
+        <CodiIntern>001</CodiIntern>
+        <Descripcio>El melón es una fruta dulce de forma ovalada, de color verde, amarillo.</Descripcio>
+        <PC>1,40€/kg</PC>
+        <PVP>2,40€/kg</PVP>
+        <Oferta>
+            <NomOferta></NomOferta>
+            <CodiOferta></CodiOferta>
+            <Descompte></Descompte>
+        </Oferta>
+    </Producto>
+    <Producto>
+        <Nom>Aguacate</Nom>
+        <CodiIntern>002</CodiIntern>
+        <Descripcio>El aguacate es una fruta en forma de pera, con una piel verde, morada o negra que se vuelve más oscura al madurar</Descripcio>
+        <PC>2,59€/kg</PC>
+        <PVP>5,59€/kg</PVP>
+        <Oferta>
+            <NomOferta></NomOferta>
+            <CodiOferta></CodiOferta>
+            <Descompte></Descompte>
+        </Oferta>
+    </Producto>
+    <Producto>
+        <Nom>Repara Extreme Pattex 20gr</Nom>
+        <CodiIntern>003</CodiIntern>
+        <Descripcio>Adhesivo universal diseñado para pegar y reparar una amplia gama de materiales</Descripcio>
+        <PC>3,59€</PC>
+        <PVP>10,59€</PVP>
+        <Oferta>
+            <NomOferta>50% Que Vuelve</NomOferta>
+            <CodiOferta>OF001</CodiOferta>
+            <Descompte>50%</Descompte>
+        </Oferta>
+    </Producto>
+</Pedido>
