@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<vechiculos>
+    <vechiculo>
+        <tipo>Coche</tipo>
+        <matricula>1234ABC</matricula>
+        <color>rojo</color>
+        <segundamano>
+            <km>120.000km</km>
+        </segundamano>
+    </vechiculo>
+    <vechiculo>
+        <tipo>Coche</tipo>
+        <matricula>4321CBA</matricula>
+        <color>azul</color>
+        <segundamano>
+            <km></km>
+        </segundamano>
+    </vechiculo>
+    <vechiculo>
+        <tipo>Furgoenta</tipo>
+        <matricula>4444RTF</matricula>
+        <color>blanca</color>
+        <segundamano>
+            <km>200.058km</km>
+        </segundamano>
+    </vechiculo>
+    <vechiculo>
+        <tipo>Furgoneta</tipo>
+        <matricula>5555GLV</matricula>
+        <color>Gris</color>
+        <segundamano>
+            <km></km>
+        </segundamano>
+    </vechiculo>
+</vechiculos>
