@@ -1,0 +1,21 @@
+<!ELEMENT arrel (c:esdeveniments+, t:esdeveniments+)><!--Esta linea declara el element root con esdeveniment+ ya que puede haber 1 o mas-->
+<!ATTLIST arrel xmlns CDATA "http://www.elpuig.xeill.net/default">
+<!ATTLIST arrel xmlns:c CDATA "http://www.elpuig.xeill.net/concerts">
+<!ATTLIST arrel xmlns:t CDATA "http://www.elpuig.xeill.net/teatre">
+<!ELEMENT c:esdeveniments (c:esdeveniment+)><!--Esta linea declara el element root con esdeveniment+ ya que puede haber 1 o mas-->
+<!ELEMENT c:esdeveniment (c:grup, c:lloc, c:data, c:entrada)> <!--Esta linea declara el elementGroup esdeveniment y sus elementos-->
+<!ELEMENT c:grup (#PCDATA)>
+<!ELEMENT c:lloc (#PCDATA)>
+<!ELEMENT c:data (#PCDATA)>
+<!ELEMENT c:entrada (#PCDATA)>
+<!--las lineas anteriores son los campos-elementos que contiene el c:grupo los cuales se les puede introducir texto-->
+<!ATTLIST c:entrada gratuita ( si | no ) #REQUIRED>
+<!--Define el atributo "gratuita" de entrada la cual puede ser boleana e indicar su valor o no -->
+
+<!ELEMENT t:esdeveniments (t:esdeveniment+)><!--Esta linea declara el element root con esdeveniment+ ya que puede haber 1 o mas-->
+<!ELEMENT t:esdeveniment (t:companyia, t:lloc, t:data, t:entrada)> <!--Esta linea declara el elementGroup esdeveniment y sus elementos-->
+<!ELEMENT t:companyia (#PCDATA)>
+<!ELEMENT t:lloc (#PCDATA)>
+<!ELEMENT t:data (#PCDATA)>
+<!ELEMENT t:entrada (#PCDATA)>
+<!--las lineas anteriores son los campos-elementos que contiene el c:grupo los cuales se les puede introducir texto-->
