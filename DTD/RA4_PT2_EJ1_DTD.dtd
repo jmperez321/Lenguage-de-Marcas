@@ -1,0 +1,9 @@
+<!ELEMENT esdeveniments (esdeveniment+)><!--Esta linea declara el element root con esdeveniment+ ya que puede haber 1 o mas-->
+<!ELEMENT esdeveniment (grup, lloc, data, entrada)> <!--Esta linea declara el elementGroup esdeveniment y sus elementos-->
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada (#PCDATA)>
+<!--las lineas anteriores son los campos-elementos que contiene el grupo los cuales se les puede introducir texto-->
+<!ATTLIST entrada gratuita ( si | no ) #REQUIRED>
+<!--Define el atributo "gratuita" de entrada la cual puede ser boleana e indicar su valor o no -->
