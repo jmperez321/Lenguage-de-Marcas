@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="esdeveniments">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="esdeveniment">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="grup" type="xs:string"/>
+                        <xs:element name="lloc" type="xs:string"/>
+                        <xs:element name="data" type="xs:date"/>
+                        <xs:element name="entrada">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:integer">
+                                        <xs:attribute name="gratuita" type="xs:integer" />
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
