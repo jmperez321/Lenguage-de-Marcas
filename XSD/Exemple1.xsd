@@ -3,12 +3,12 @@
 <xs:element name="esdeveniments">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="esdeveniment">
+            <xs:element name="esdeveniment" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="grup" type="xs:string"/>
                         <xs:element name="lloc" type="xs:string"/>
-                        <xs:element name="data" type="xs:date"/>
+                        <xs:element name="data" type="xs:dateTime"/>
                         <xs:element name="entrada">
                             <xs:complexType>
                                 <xs:simpleContent>
