@@ -12,8 +12,8 @@
                         <xs:element name="entrada">
                             <xs:complexType>
                                 <xs:simpleContent>
-                                    <xs:extension base="xs:integer">
-                                        <xs:attribute name="gratuita" type="xs:integer" />
+                                    <xs:extension base="xs:decimal">
+                                        <xs:attribute name="gratuita" type="xs:string" use="required" />
                                     </xs:extension>
                                 </xs:simpleContent>
                             </xs:complexType>

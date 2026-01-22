@@ -1,4 +1,8 @@
-<esdeveniments>
+
+<esdeveniments
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Exemple1.xsd">
+
     <esdeveniment>
         <grup>Oques Grasses</grup>
         <lloc>El moll de la fusta</lloc>
